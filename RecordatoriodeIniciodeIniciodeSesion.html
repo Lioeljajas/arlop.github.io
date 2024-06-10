@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Recordatorio</title>
+    </head>
+
+    <!-- CODIGOS DE FUNCIONAMIENTO DEL DISEÑO-->
+
+    <style>
+        header {
+            border: 1px solid #fff; 
+            border-radius: 10px;
+            width: 15%; 
+            padding: 5px; 
+            margin: 5px;
+            margin-left: 42%; 
+            color: #fff; 
+        }
+
+        body{
+            background-image: url('https://images.alphacoders.com/109/1090851.jpg');
+            background-size: cover; 
+            background-position: center; 
+            background-repeat: no-repeat; 
+        }
+
+        footer{
+            background-color: #3c3c3c;
+            color: #959595;
+        }
+
+        .separador-body-footer{
+            width: 98%;
+            height: 1px;
+            background-color: white;
+            border-radius: 1px;
+            margin-left: 12px;      
+            margin-top: 4%;      
+        }
+
+        .contenedor-1{
+            display: flex;
+            justify-content: space-around;
+            margin-top: 1%;
+            margin-bottom: 200px;
+        }
+
+        .divborder-1{
+            width: 40%;
+            height: 520px;
+            border: 1px solid white;
+            border-radius: 10px;
+            margin: 10px;
+            color: #fff;
+            margin-top: 1%;
+        }
+
+        img{
+            border: 1px solid #000;
+            border-radius: 50%;
+            width: 300px;
+            height: 300px;
+        }
+        .image-container {
+            display: inline-block;
+            padding: 5px;
+            background-color: #656565;
+            border-radius: 50%;
+        }
+        .image-container img{
+            display: block;
+            border-radius: 50%;
+        }
+
+        .enlace {
+            color: #555; 
+            text-decoration: none;
+            position: relative;
+        }
+          
+        .enlace::after {
+            content: "";
+            position: absolute;
+            bottom: -3px; 
+            left: 0;
+            width: 100%;
+            height: 2px;
+            background-color: #555;
+            transition: width 0.3s, background-color 0.3s;
+        }
+
+        .enlace:hover {
+            color: #b6fafe; 
+        }
+          
+        .enlace:hover::after {
+            width: calc(100% - 10px); 
+            background-color: #b6fafe; 
+        }
+
+        input[type="text"]{
+            color: #fff;
+            background-color: #000;
+            width: 500px;
+            height: 40px;
+            margin: 10px;
+            box-sizing: border-box;
+            border: 5px solid #ccc;
+            border-radius: 10px;
+            font-size: 18px;
+            transition: border-color 0.3s ease-in-out;
+        }
+
+        input[type="text"]:focus {
+            border-color: #66afe9;
+            outline: none;
+        }
+
+        button{
+            background-color: #000;
+            border-color: #fff;
+            color: #fff;
+            border-radius: 10px;
+            border: 4px solid #fff;
+            width: 150px;
+            height: 60px;
+        }
+
+        button:hover {
+            color: #354845;
+            transition: border-color 0.3s ease-in-out;
+            border-color: rgb(47, 247, 150);
+
+        }
+        
+    </style>
+
+    <!-- CODIGOS DE FUNCIONAMIENTO DEL DISEÑO-->
+
+
+    <body>
+        <header>
+            <h1>
+                <center>
+                    <script>
+                        document.write('Registrate y Accede');
+                    </script>
+                </center>
+            </h1>
+        </header>
+        <div class="contenedor-1">
+            <div class="divborder-1">
+                <h2>
+                    <center>
+                        <script>
+                            document.write('Opcion no Disponible');
+                        </script>
+                    </center>
+                </h2>
+                <h4>
+                    <center>
+                        <script>
+                            document.write('Registrate en esta Para poder Acceder a Varias Cosas Exclusivos a esta Pagina y poder Comprar Productos de la Pagina Web');
+                        </script>
+                    </center>
+                </h4>
+                <center>
+                    <div class="image-container">
+                        <center>
+                            <img src="https://static.vecteezy.com/system/resources/previews/032/980/801/original/electric-guitar-icon-vector.jpg">
+                        </center>
+                    </div>
+                </center>
+                <h2>
+                    <center>
+                        <a href="login.php" class="enlace">Registrarse</a>
+                    </center>
+                </h2>            
+            </div>
+        </div>
+        <div class="separador-body-footer"></div>
+    <footer>
+        <h4>
+            <center>
+               <script>
+                    document.write('Derechos de la Pagina pertenecientes al Alumno Arenas Lopez Jose Leonardo Daniel 2024-3025')
+               </script>
+            </center>
+        </h4>
+    </footer>
+    </body>
+</html>

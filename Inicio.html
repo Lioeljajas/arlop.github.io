@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Inicio</title>
+    </head>
+
+    <!-- CODIGOS DE FUNCIONAMIENTO DEL DISEÑO-->
+
+    <style>
+        
+        header {
+            border: 1px solid #fff; 
+            border-radius: 10px;
+            width: 15%; 
+            padding: 5px; 
+            margin: 5px;
+            margin-left: 42%; 
+            margin-top: 12%;
+            color: #fff; 
+        }
+
+        body{
+            background-image: url('https://wallpaper.forfun.com/fetch/a2/a2d7851ae6748a05694df9fa8411f468.jpeg');
+            background-size: cover; 
+            background-position: center; 
+            background-repeat: no-repeat; 
+
+        }
+
+        footer{
+            background-color: #000;
+            color: #959595;
+        }
+
+        .separador-body-footer{
+            width: 99%;
+            align-items: center;
+            height: 1px;
+            background-color: white;
+            border-radius: 1px;
+            margin-left: 12px;            
+        }
+
+        .contenedor-1{
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 50px;
+        }
+          
+        .divborder{
+            width: 30%;
+            height: 220px;
+            border: 1px solid white;
+            border-radius: 10px;
+            margin: 10px;
+            color: #fff;
+            margin-top: 20%;
+        }
+          
+          .enlace {
+            color: #555; 
+            text-decoration: none;
+            position: relative;
+        }
+          
+          .enlace::after {
+            content: "";
+            position: absolute;
+            bottom: -3px; 
+            left: 0;
+            width: 100%;
+            height: 2px;
+            background-color: #555;
+            transition: width 0.3s, background-color 0.3s;
+          }
+          
+          .enlace:hover {
+            color: #83fdce; 
+          }
+          
+          .enlace:hover::after {
+            width: calc(100% - 10px); 
+            background-color: #83fdce; 
+          }
+          
+    </style>
+
+    <!-- CODIGOS DE FUNCIONAMIENTO DEL DISEÑO-->
+
+    <!-- CODIGOS DE FUNCIONAMIENTO PRINCIPAL-->
+
+    <script>
+        document.querySelector('.enlace').addEventListener('click', function(event) {
+            event.preventDefault(); 
+            window.location.href = this.getAttribute('href'); 
+          });
+    </script>
+
+    <!-- CODIGOS DE FUNCIONAMIENTO PRINCIPAL-->
+
+    <!--CUERPO DE LA PAGINA-->
+
+    <body>
+        <header>
+            <h1>
+                <center>
+                    <script>
+                        document.write('ArLøp');
+                    </script>
+                </center>
+            </h1>
+        </header>
+
+        <div class="contenedor-1">
+            <div class="divborder">
+                <h2>
+                    <center>
+                        <script>
+                            document.write('Ver Productos');
+                        </script>
+                    </center>
+                </h2>
+                <h4>
+                    <center>
+                        <script>
+                            document.write('Aqui Puedes Comprar Productos de la Pagina, Acceder a mas Cosas');
+                        </script>
+                    </center>
+                    <h2>
+                        <center>
+                            <a href="RecordatoriodeIniciodeIniciodeSesion.html" class="enlace">Ver Productos</a>
+                        </center>
+                    </h2>
+                </h4>
+            </div>
+            <div class="divborder">
+                <h2>
+                    <center>
+                        <script>
+                            document.write('Previsualizar la Pagina');
+                        </script>
+                    </center>
+                </h2>
+                <h4>
+                    <center>
+                        <script>
+                            document.write('Aqui Puedes ver la Pagina con Productos, sin acceder a una Cuenta y con Muchos Limites');
+                        </script>
+                    </center>
+                </h4>
+                <h2>
+                    <center>
+                        <a href="ArLøpPaginaBeta.php" class="enlace">Previsualizar</a>
+                    </center>
+                </h1>
+            </div>
+            <div class="divborder">
+                <h2>
+                    <center>
+                        <script>
+                            document.write('Registrarse');
+                        </script>
+                    </center>
+                </h2>
+                <h4>
+                    <center>
+                        <script>
+                            document.write('Aqui Puedes Registrarte para Acceder con Cuenta en Este Sitio Web');
+                        </script>
+                    </center>
+                </h4>
+                <h2>
+                    <center>
+                        <a href="login.php" class="enlace">Registrarse</a>
+                    </center>
+                </h2>
+            </div>
+        </div>
+        <div class="separador-body-footer"></div>
+    <footer>
+        <h5>
+            <center>
+               <script>
+                    document.write('Derechos de la Pagina pertenecientes al Alumno Arenas Lopez Jose Leonardo Daniel 2024-3025')
+               </script>
+            </center>
+        </h5>
+    </footer>
+    </body>
+
+        <!--CUERPO DE LA PAGINA-->
+
+</html>
